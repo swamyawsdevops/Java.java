@@ -1,6 +1,6 @@
 node {
   stage("Git check out") {
-    git 'https://github.com/SaiKrishna2681/Testing/tree/master/mywebapp'
+    git 'https://github.com/SaiKrishna2681/myapp.git'
   }
   stage("compile") {
     
