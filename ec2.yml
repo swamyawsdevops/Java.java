@@ -1,6 +1,7 @@
 Resources:
   MyInstance:
     Type: AWS::EC2::Instance
+    DeletionPolicy: Retain
     Properties: 
       AvailabilityZone: ap-southeast-2a
       ImageId: ami-03ed5bd63ba378bd8
